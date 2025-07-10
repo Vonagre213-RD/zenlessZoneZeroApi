@@ -1,0 +1,11 @@
+{
+    "type": "module",
+    "scripts": {
+        "dev": "node server/server.js start"
+    },
+    "dependencies": {
+        "@supabase/supabase-js": "^2.50.4",
+        "dotenv": "^17.2.0",
+        "express": "^5.1.0"
+    }
+}
