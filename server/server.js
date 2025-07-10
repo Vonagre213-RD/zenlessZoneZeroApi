@@ -1,10 +1,7 @@
 import express from 'express'
-import path from 'node:path'
-import {fileURLToPath} from 'node:url'
-import { dirname } from 'node:path'
 import * as rt from './Functions/routes.js'
 
-
+const app = express()
 rt.Router(app)
 
 app.listen(3000, (err) => {
