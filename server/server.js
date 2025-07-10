@@ -4,12 +4,6 @@ import {fileURLToPath} from 'node:url'
 import { dirname } from 'node:path'
 import * as rt from './Functions/routes.js'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
-
-const app = express()
-
-app.use('/images', express.static(path.join(__dirname, '../public/images')))
 
 rt.Router(app)
 
