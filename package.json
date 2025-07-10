@@ -1,7 +1,8 @@
 {
     "type": "module",
     "scripts": {
-        "dev": "node server/server.js start"
+        "dev": "node server/server.js start",
+        "start": "node server/server.js start"
     },
     "dependencies": {
         "@supabase/supabase-js": "^2.50.4",
