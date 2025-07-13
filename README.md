@@ -1,1 +1,1 @@
-hola panitas, esto es una api de zenless zone zero que hice con node y express, estoy haciendo una pagina web similar a la poke api, sientanse libres de contribuir como quieran
+hola panitas, esto es una api de zenless zone zero que hice con node y express, estoy haciendo una pagina web similar a la poke api pero usando mi propia api, sientanse libres de contribuir como quieran
